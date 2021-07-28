@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <property name="styleSheet">
+        <string notr="true">background-image:url(:/images/background.png);</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <spacer name="verticalSpacer">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>417</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_2" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <property name="spacing">
+               <number>64</number>
+              </property>
+              <item>
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Button_ChooseType">
+                <property name="minimumSize">
+                 <size>
+                  <width>341</width>
+                  <height>211</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>512</width>
+                  <height>390</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 6px 6px 2px rgba(255, 255, 255, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+</string>
+                </property>
+                <property name="text">
+                 <string>构型选择</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Button_LogFile">
+                <property name="minimumSize">
+                 <size>
+                  <width>341</width>
+                  <height>211</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>512</width>
+                  <height>390</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 6px 6px 2px rgba(255, 255, 255, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+</string>
+                </property>
+                <property name="text">
+                 <string>日志文件</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Button_Record">
+                <property name="minimumSize">
+                 <size>
+                  <width>341</width>
+                  <height>211</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>512</width>
+                  <height>390</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 6px 6px 2px rgba(255, 255, 255, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+</string>
+                </property>
+                <property name="text">
+                 <string>飞行记录</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="Button_Simulink">
+                <property name="minimumSize">
+                 <size>
+                  <width>341</width>
+                  <height>211</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>512</width>
+                  <height>390</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 6px 6px 2px rgba(255, 255, 255, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+</string>
+                </property>
+                <property name="text">
+                 <string>仿真</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <spacer name="verticalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Vertical</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>416</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <layout class="QVBoxLayout" name="verticalLayout_3" stretch="259,144,97,800,300">
+        <item>
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>165</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>51</number>
+           </property>
+           <property name="leftMargin">
+            <number>53</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>53</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="Button_Quit">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;</string>
+             </property>
+             <property name="text">
+              <string>退出</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_4">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;</string>
+             </property>
+             <property name="text">
+              <string>用户</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;</string>
+             </property>
+             <property name="text">
+              <string>媒体库</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_8">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;</string>
+             </property>
+             <property name="text">
+              <string>指引</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;</string>
+             </property>
+             <property name="text">
+              <string>公告</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_10">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+background: #DFDFDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 36px;
+
+font-family: Microsoft JhengHei UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 81px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;</string>
+             </property>
+             <property name="text">
+              <string>连接</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_3" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="351,800,258,800,351">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>258</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_11">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background: url(301ca7e92aacffb013cacd08a57e6a8.png);
+filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 36px;</string>
+             </property>
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>189</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_12">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>PushButton</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>258</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>192</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
