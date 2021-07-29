@@ -1,0 +1,5 @@
+int64 mode
+int64 waypoint_number
+geometry_msgs/Pose[10] pose
+---
+string check

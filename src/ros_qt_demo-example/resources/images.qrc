@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/icon.png</file>
+        <file>images/background.png</file>
+        <file>images/loading.gif</file>
+        <file>images/logo.png</file>
+        <file>images/icon/返航.png</file>
+        <file>images/icon/开始.png</file>
+        <file>images/icon/悬停.png</file>
+        <file>images/icon/unity.png</file>
+        <file>images/icon/qifei .png</file>
+        <file>images/icon/成功拼接.png</file>
+        <file>images/icon/超椭圆.png</file>
+        <file>images/开启.png</file>
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+    </qresource>
+</RCC>
