@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/qmls">
-        <file>qmls/showgif.qml</file>
-    </qresource>
-</RCC>
